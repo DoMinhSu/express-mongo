@@ -1,0 +1,40 @@
+{
+  "name": "shop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "dev:import": "nodemon ./bin/www -import",
+    "dev:delete": "nodemon ./bin/www -delete"
+  },
+  "dependencies": {
+    "ajv": "^6.12.0",
+    "ajv-errors": "^1.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "crypto-random-string": "^3.2.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "formidable": "^1.2.2",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "lru-cache": "^5.1.1",
+    "mongodb": "^3.5.5",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "ramda": "^0.27.0",
+    "sharp": "^0.25.2",
+    "sift": "^12.0.0",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "faker": "^4.1.0"
+  }
+}
