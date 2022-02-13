@@ -9,7 +9,7 @@
     "dev:delete": "nodemon ./bin/www -delete"
   },
   "dependencies": {
-    "ajv": "^6.12.0",
+    "ajv": "^6.12.3",
     "ajv-errors": "^1.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
